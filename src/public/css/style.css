@@ -1,0 +1,28 @@
+.sigin {
+    width: 40%;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;    
+}
+
+@media (max-width: 786px) {
+    .sigin {
+        width: 70%;
+    }
+}
+@media (max-width: 530px) {
+    .sigin {
+        width: 80%;
+    }
+}
+@media (max-width: 380px) {
+    .sigin {
+        width: 100%
+    }
+    .logo {
+        width: 100px;
+    }
+}
